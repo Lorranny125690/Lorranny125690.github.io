@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="nome"></h1>
+    <p id="curso"></p>
+    <p id="s"></p>
+</body>
+
+<script>
+    const aluno = {
+        nome: "Lorranny",
+        curso: "Sistemas",
+        s: "S1"
+    }
+
+    document.getElementById("nome").textContent = aluno.nome
+    document.getElementById("curso").textContent = `Idade: ${aluno.curso}`
+    document.getElementById("s").textContent = `Idade: ${aluno.s}`
+</script>
+</html>

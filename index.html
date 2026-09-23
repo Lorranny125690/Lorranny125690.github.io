@@ -110,18 +110,33 @@
             <p id="s"></p>
         </div>
 
+        <div class="info">
+            <span class="label">Data</span>
+            <p id="data"></p>
+        </div>
+
+        <div class="info">
+            <span class="label">Mais informações</span>
+            <p id="link"></p>
+        </div>
+
+
     </div>
 
     <script>
         const aluno = {
             nome: "Lorranny",
             curso: "Sistemas",
-            s: "S1"
+            s: "S1",
+            data: "22/09/2016",
+            link: "https://github.com/Lorranny125690"
         };
 
         document.getElementById("nome").textContent = aluno.nome;
         document.getElementById("curso").textContent = aluno.curso;
         document.getElementById("s").textContent = aluno.s;
+        document.getElementById("data").textContent = aluno.data;
+        document.getElementById("link").textContent = aluno.link;
     </script>
 
 </body>
